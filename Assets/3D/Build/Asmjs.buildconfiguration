@@ -1,0 +1,41 @@
+{
+    "Dependencies": [
+        "GlobalObjectId_V1-1-b91c3cf2e430e114e823cf184e88b955-93214019566545601-0"
+    ],
+    "Components": [
+        {
+            "$type": "Unity.Build.DotsRuntime.DotsRuntimeBuildProfile, Unity.Build.DotsRuntime",
+            "Target": "asmjs",
+            "Configuration": 2,
+            "UseNewPipeline": false,
+            "PipelineConstructor": null
+        },
+        {
+            "$type": "Unity.Entities.Runtime.Build.DotsRuntimeBurstSettings, Unity.Entities.Runtime.Build",
+            "EnableBurst": false
+        },
+        {
+            "$type": "Unity.Build.Web.DotsRuntime.WasmMemorySettings, Unity.Build.Web.DotsRuntime",
+            "WasmStackSize": "512KB",
+            "WasmMemorySize": "128MB",
+            "AllowWasmMemoryGrowth": true
+        },
+        {
+            "$type": "Unity.Build.Web.DotsRuntime.WasmOutputSettings, Unity.Build.Web.DotsRuntime",
+            "OutputSingleHTMLFile": false,
+            "MinifyHTMLFile": true,
+            "MinifyOutputWithClosure": false,
+            "EmbedCpuProfiler": false,
+            "EmbedMemoryProfiler": false,
+            "IncludeSymbolsForBrowserCallstacks": false,
+            "EmitRuntimeMemoryDebugChecks": false,
+            "EmitRuntimeAllocationDebugChecks": false,
+            "WebTemplateFolder": ""
+        },
+        {
+            "$type": "Unity.Build.DotsRuntime.DotsRuntimeRootAssembly, Unity.Build.DotsRuntime",
+            "BeeTargetOverride": null,
+            "RootAssembly": "GlobalObjectId_V1-1-2bc833fcb82d16d4eb9166c9ebf79cbc-5897886265953266890-0"
+        }
+    ]
+}

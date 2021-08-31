@@ -1,0 +1,14 @@
+{
+    "Dependencies": [
+        "GlobalObjectId_V1-1-f8e8c644109e4b04a9ae602a523b6a6b-93214019566545601-0"
+    ],
+    "Components": [
+        {
+            "$type": "Unity.Build.DotsRuntime.DotsRuntimeBuildProfile, Unity.Build.DotsRuntime",
+            "Target": "windows-dotnet",
+            "Configuration": 2,
+            "UseNewPipeline": false,
+            "PipelineConstructor": null
+        }
+    ]
+}
