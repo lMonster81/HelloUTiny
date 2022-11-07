@@ -2,8 +2,19 @@
 using TinyColor = Unity.Tiny.Color;
 using UnityEngine;
 
+
 namespace TinyTime.Authoring
 {
+     public struct Theme : IComponentData
+    {
+        public Color DaylightBackground;
+        public Color DaylightAmbientColor;
+        public Color DaylightUIColor;
+        public Color NightBackground;
+        public Color NightAmbientColor;
+        public Color NightUIColor;
+    }
+
     public class ThemeAuthoring : MonoBehaviour, IConvertGameObjectToEntity
     {
         public Color m_DaylightAmbientColor;
